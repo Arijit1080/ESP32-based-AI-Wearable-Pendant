@@ -161,6 +161,18 @@ Real-time updates show:
 [TRANSCRIPTION] Your transcribed text appears here
 [SUMMARY] Your AI-generated summary appears here
 ```
+## 🖼️ Circuit Schematic
+
+![Circuit Schematic](images/schematic.png)
+
+
+---
+
+## 🔄 System Flowchart
+
+![System Flowchart](images/flowchart.png)
+
+---
 
 ## 🔐 Security
 
@@ -200,15 +212,8 @@ Real-time updates show:
 - Refresh webpage to see latest results
 
 
-## 🔄 Development
 
-### Building from Source
-```bash
-git clone https://github.com/yourusername/esp32-audio-summarizer.git
-cd esp32-audio-summarizer/summarizer
-# Create secrets.h with your API keys
-# Upload via Arduino IDE
-```
+
 
 ### Contributing
 1. Fork the repository
