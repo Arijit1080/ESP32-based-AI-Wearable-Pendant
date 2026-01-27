@@ -161,6 +161,12 @@ Real-time updates show:
 [TRANSCRIPTION] Your transcribed text appears here
 [SUMMARY] Your AI-generated summary appears here
 ```
+## 🔄 Dashboard
+
+![System Flowchart](images/dashboard.jpg)
+
+---
+
 ## 🖼️ Circuit Schematic
 
 ![Circuit Schematic](images/schematic.png)
@@ -173,6 +179,7 @@ Real-time updates show:
 ![System Flowchart](images/flowchart.png)
 
 ---
+
 
 ## 🔐 Security
 
