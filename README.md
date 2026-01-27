@@ -163,7 +163,7 @@ Real-time updates show:
 ```
 ## 🔄 Dashboard
 
-![System Flowchart](images/dashboard.jpg)
+![Dashboard](images/pendantDashboard.jpg)
 
 ---
 
