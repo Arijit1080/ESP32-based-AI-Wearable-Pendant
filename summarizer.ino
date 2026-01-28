@@ -1,3 +1,28 @@
+/*
+ESP32 Audio Summarizer – Line-wise Code Overview
+------------------------------------------------
+~1–40     : Includes, global definitions, forward declarations
+~41–90    : Pin mapping, RGB LED setup, status indication helpers
+~91–160   : Audio configuration, buffers, recording state variables
+~161–210  : Transcription data structures and system state machine
+~211–280  : FreeRTOS tasks, semaphores, and mutex definitions
+~281–360  : SPIFFS init, load/save transcriptions, storage cleanup
+~361–470  : Transcription save logic with timestamps & metadata
+~471–610  : Q&A and time-based summary using ChatGPT
+~611–700  : Graceful shutdown and recovery handling
+~701–1200 : Web UI (HTML/CSS/JS) dashboard
+~1201–1380: REST API handlers (status, start/stop, query, search, export)
+~1381–1510: WiFi config portal (SoftAP, save/load credentials)
+~1511–1630: Timezone, NTP sync, timestamp formatting utilities
+~1631–1750: I2S microphone init/deinit
+~1751–1910: Whisper transcription pipeline
+~1911–2030: ChatGPT summarization pipeline
+~2031–2180: FreeRTOS transcription & summarization tasks
+~2181–2280: setup() – system initialization & auto-start
+~2281–END : loop() – audio capture, chunking, task signaling
+*/
+
+
 #include <Arduino.h>
 #include <ESP_I2S.h>
 #include <WiFi.h>
